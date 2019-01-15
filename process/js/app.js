@@ -17,6 +17,7 @@ var MainInterface = React.createClass({
     }.bind(this));
   },
 
+  
   componentWillUnmount: function() {
     this.serverRequest.abort();
   },
